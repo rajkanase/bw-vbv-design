@@ -1,25 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import 'hammerjs';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { LastComponent } from './last/last.component';
+import { SecondLastComponent } from './second-last/second-last.component';
 
-import {MatMenuModule} from '@angular/material/menu';
-import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    LastComponent,
+    SecondLastComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    MatMenuModule,
-    MatFormFieldModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

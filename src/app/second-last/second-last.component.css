@@ -1,0 +1,12 @@
+.btn-outline-primary {
+    height: 24px;
+    border-radius: 1.25rem;
+    padding-top: 0;
+    color: #008C9E;
+    border-color: #008C9E;
+}
+
+.btnclr{
+    background-color: #008C9E;
+    color: white;
+}
